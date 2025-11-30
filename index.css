@@ -327,10 +327,13 @@ a:hover {
 
 
 @media print {
+    @page {
+    margin: 10mm 8mm; 
+  }
 
-    .page-wrapper {
+  .page-wrapper {
     padding: 0 !important;
-    margin: 0 !important;
+    margin: 0 3mm !important;
   }
   .header-grid {
     display: grid !important;
@@ -339,7 +342,7 @@ a:hover {
       "contact titles"
       "contact profile" !important;
     column-gap: 8mm !important;
-    padding: 3mm 2mm 1mm !important;
+    padding: 3mm 4mm 1mm !important;
     background-color: #f3f5f7 !important;
     color: #0f0f0f !important;
     margin-bottom: 0 !important;
@@ -347,7 +350,7 @@ a:hover {
   }
   .job {
    color: #0f0f0f !important;
-   font-size: 12pt;
+   font-size: 11pt;
    font-weight: 500;
   }
 
@@ -371,7 +374,7 @@ a:hover {
     position: static !important;
     margin: 0 !important;
     font-size: 9pt !important;
-    line-height: 1.1 !important;
+    line-height: 10pt !important;
   }
 
     .header-profile p {
@@ -463,10 +466,10 @@ a:hover {
 }
   .content h2 {
     margin-top: 0 !important;
-    font-size: 12pt !important;
+    font-size: 11pt !important;
   }
 .content h3 {
-  font-size: 11pt;
+  font-size: 10pt;
 }
     .contact-photo {
     width: 90px !important;
